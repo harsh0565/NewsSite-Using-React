@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -11,8 +10,7 @@ export default class App extends Component {
   state = {
     progress: 100,
   };
-  // apiKey = process.env.KEY;
-  apiKey = "769d491c00d1461f952e9e74c5764961"
+  apiKey = "af81796b148f4efb8ba4495d3ffea322"
   render() {
     return (
       <div>

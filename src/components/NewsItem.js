@@ -7,7 +7,7 @@ const NewsItem =(props)=>{
       <>
         <div>
           <div
-            className="card d-flex justify-content-center"
+            className="card d-flex d-flex justify-content-around"
             style={{ height: "25rem" }}
           >
             <img
