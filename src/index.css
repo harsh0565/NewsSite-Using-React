@@ -11,10 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.btn{
-  outline: 2px dotted red;
+/* .btn{
+  outline: 2px dotted rgb(105, 80, 80);
   outline-offset: 2px;
-}
+} */
 body{
   background-color:azure;
 }

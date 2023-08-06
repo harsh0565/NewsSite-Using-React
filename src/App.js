@@ -1,6 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+import {  Routes, Route } from "react-router-dom";
 import React, { Component } from "react";
 import Navbar from "./components/Navbar";
 import News from "./components/News";
@@ -10,18 +9,14 @@ export default class App extends Component {
   state = {
     progress: 100,
   };
-  apiKey = "af81796b148f4efb8ba4495d3ffea322"
+  // apiKey = "af81796b148f4efb8ba4495d3ffea322"
+  apiKey = "289d763aa5ea4464b93d4a6cf5c59406";
+
   render() {
     return (
       <div>
-        <Navbar />
-        <LoadingBar
-          color="#f11946"
-          progress={this.state.progress}
-          height={2}
-        />
-
-        <BrowserRouter>
+        <LoadingBar color="#f11946" progress={this.state.progress} height={2} />
+          <Navbar />
           <Routes>
             <Route
               exact
@@ -104,7 +99,6 @@ export default class App extends Component {
               }
             />
           </Routes>
-        </BrowserRouter>
       </div>
     );
   }

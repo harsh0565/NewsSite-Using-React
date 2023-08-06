@@ -1,6 +1,5 @@
 import React from "react";
-
-const Navbar = (props)=> {
+const Navbar = ()=> {
   
     return (
       <>
@@ -25,7 +24,7 @@ const Navbar = (props)=> {
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0 text-capitalize">
-                <li className="nav-item"><a className="nav-link active" aria-current="page" href="/">Home</a></li>
+                <li className="nav-item"><a className="nav-link" aria-current="page" href="/">Home</a></li>
                 <li className="nav-item"><a className="nav-link" href="/business">business</a></li>
                 <li className="nav-item"><a className="nav-link" href="/entertainment">entertainment</a></li>
                 <li className="nav-item"><a className="nav-link" href="/general">general</a></li>
